@@ -28,7 +28,7 @@ public class StudentController {
 	@RequestMapping("show/StudentByUniversity/{college}")
 	public String showStudent(@PathVariable("college") String college,Model model)
 	{
-		//System.out.println(studentRepository.count());
+		System.out.println(studentRepository.count());
 		//System.out.println(studentRepository.getStudentByName("Luay").getUniversity());
 		//System.out.println(studentRepository.getStudentFromId(346).getMajor());
 		model.addAttribute("students",studentRepository.getStudentByUniversity(college));
