@@ -1,5 +1,5 @@
 package com.alshawi.home.controller;
-
+import com.alshawi.home.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Controller;
@@ -8,9 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import com.alshawi.home.nodes.Student;
-import com.alshawi.home.repository.StudentRepository;
 
 
 @Configuration
@@ -18,7 +16,7 @@ import com.alshawi.home.repository.StudentRepository;
 @RequestMapping("student")
 public class StudentController {
 	@Autowired
-	StudentRepository studentRepository;
+	StudentService studentService;
 
 	@RequestMapping("add")
 	public String addStudent()
@@ -28,10 +26,13 @@ public class StudentController {
 	@RequestMapping("show/StudentByUniversity/{college}")
 	public String showStudent(@PathVariable("college") String college,Model model)
 	{
-		System.out.println(studentRepository.count());
-		//System.out.println(studentRepository.getStudentByName("Luay").getUniversity());
-		//System.out.println(studentRepository.getStudentFromId(346).getMajor());
-		model.addAttribute("students",studentRepository.getStudentByUniversity(college));
+		model.addAttribute("students",studentService.ByUniversity(college));
+		return "show_student";
+	}
+	@RequestMapping("show")
+	public String showStudent(Model model)
+	{
+		model.addAttribute("students",studentService.getAll());
 		return "show_student";
 	}
 	@RequestMapping(value="added" ,method = RequestMethod.POST)
@@ -43,11 +44,10 @@ public class StudentController {
 		System.out.println(username);
 
 		Student s = new Student();
-		//s.setID(students.size());
 		s.setName(username);
 		s.setMajor(major);
 		s.setUniversity(university);
-		studentRepository.save(s);
+		studentService.create(s);
 		
 		return "add_student";
 	}
@@ -55,7 +55,8 @@ public class StudentController {
 	@RequestMapping(value="show/StudentByUniversity/",method = RequestMethod.POST)
 	public String showStudentByCollege(@RequestParam("college_search") String college,Model model)
 	{
-		model.addAttribute("students",studentRepository.getStudentByUniversity(college));
+		model.addAttribute("students",studentService.ByUniversity(college));
+
 		return "show_student";
 	}
 }

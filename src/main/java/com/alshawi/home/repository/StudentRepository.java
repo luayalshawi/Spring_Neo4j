@@ -6,6 +6,7 @@ import org.springframework.data.neo4j.repository.GraphRepository;
 import com.alshawi.home.nodes.Student;
 
 public interface StudentRepository extends GraphRepository<Student>{
+
     @Query("MATCH (n:Student) WHERE id(n)={0} RETURN n")
     Student getStudentFromId(Integer idd);
 	// return student by name
@@ -18,4 +19,6 @@ public interface StudentRepository extends GraphRepository<Student>{
     // return students by university
     @Query("MATCH (s:Student) where s.university={0} RETURN s")
     Collection <Student> getStudentByUniversity(String university);
+
+
 }
