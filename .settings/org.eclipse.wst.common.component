@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="2.0">
+	<wb-module deploy-name="demo.old">
+		<property name="context-root" value="demo"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-thymeleaf/1.3.3.RELEASE/b0a60f06e35a9df11d8fc34b5a1f31eee9dbdc6/spring-boot-starter-thymeleaf-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.3.3.RELEASE/f1ee2657f50844d8682b30a1f40aebff3ad60cce/spring-boot-starter-web-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.webjars/bootstrap/3.3.6/1360e2bcd3016ce44a273d2a3b6569963bb0bd68/bootstrap-3.3.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.webjars/jquery/2.2.2/de056ae192d0d097808f33b26af8b57e9765fef6/jquery-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/nz.net.ultraq.thymeleaf/thymeleaf-layout-dialect/1.2.5/ac736cdcaeadcc6c023ecdaa102636ec3343ba0b/thymeleaf-layout-dialect-1.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/2.3.3/282f45cfca1fa45d290a913dd768c1cff202d448/neo4j-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-neo4j/4.0.0.RELEASE/fafb58f2c579680dd7c26c3ad39fafa25ed36151/spring-data-neo4j-4.0.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-rest/1.3.0.RELEASE/1bd58902f5f6a5e396da980f7f2f2cc056f4ea9c/spring-boot-starter-data-rest-1.3.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.3.3.RELEASE/e4a71ce6ae8e42a7535dd9f1a39f91d36c538f28/spring-boot-starter-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring4/2.1.4.RELEASE/e5677e7daedfd05e001945abf4295305ac23826b/thymeleaf-spring4-2.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-validation/1.3.3.RELEASE/df2d5a437fa3093b8da99216c355189fe7b5e64/spring-boot-starter-validation-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.6.5/d50be1723a09befd903887099ff2014ea9020333/jackson-databind-2.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.2.5.RELEASE/49cd2430884b77172aa81e3fc33ef668ea1dab30/spring-web-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.2.5.RELEASE/cf463cce3e4453eb4b9a69de2dcdfd60c3c57e0/spring-webmvc-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/2.1.4.RELEASE/a730d892f3c57ba3d24af2ca657b42d81398a85a/thymeleaf-2.1.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/2.3.3/3db0289f965657a627ae3c3a299728990078e34a/neo4j-kernel-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/2.3.3/1e39df1f187cb9c9dcdbf90a40c25f1b69d86d8f/neo4j-lucene-index-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/2.3.3/a5dc0075c51563e5c82f442630efafa476d8a566/neo4j-graph-algo-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/2.3.3/6eed42c3e78a59fac6130effdded0a4e9917b0e7/neo4j-udc-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/2.3.3/3198a27e524673c5a2e462bd955e862aeae9b1e0/neo4j-graph-matching-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/2.3.3/2c79c6d0728692b79bfd77032b0bda229a179735/neo4j-cypher-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-jmx/2.3.3/d6686ceeefc39d17b3d350faf3603373a89d5e85/neo4j-jmx-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check/2.3.3/f93c7b36c27d4f14baa47f0c0a2f58f1906ee3ac/neo4j-consistency-check-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ogm/1.1.2/3c159182cecd4a414867895aeabf9ec62fdf06bf/neo4j-ogm-1.1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.11.4.RELEASE/c2b1fd4dbf7dff772d6124bb35892759e8bf088e/spring-data-commons-1.11.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.2.5.RELEASE/a75e18322c7b362fe1daa26a245ae672ec0f3138/spring-context-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.2.5.RELEASE/7395321fe937272d9b781a13985e04ab2dcd6210/spring-tx-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.16/3a6274f658487d5bfff9af3862beff6da1e7fd52/slf4j-api-1.7.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.16/34e48073884704ac987d3d1a1ab9b60e62028a9/jcl-over-slf4j-1.7.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.6.5/65137ebf85056473b40c311f889601646a7612ba/jackson-annotations-2.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-webmvc/2.4.4.RELEASE/41c0fad87f74df36b3b4167f699523a0d505acd0/spring-data-rest-webmvc-2.4.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.3.3.RELEASE/641cc375499d444e4efbc1801902260daa79758d/spring-boot-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.3.3.RELEASE/e7a4a25f74dac6b335ffabc43e3e8a6e3066340e/spring-boot-autoconfigure-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.3.3.RELEASE/16b395c84f28b947f1c336aa461fda1e662bb3b6/spring-boot-starter-logging-1.3.3.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.2.5.RELEASE/251207b29f0f38f61e3495a2f7fb053cf1bfe8c/spring-core-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.16/d64fb662c9e42789149f5078a62a22edda786c6a/snakeyaml-1.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.5/334369d7eff497f358b248c171dac0dd62c68f67/jackson-core-2.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.2.5.RELEASE/858d6c70909b3ce7e07b59fc936f8ccfcd81c0aa/spring-aop-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.2.5.RELEASE/fa992ae40f6fc47117282164e0433b71da385e94/spring-beans-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.2.5.RELEASE/a42bdfb833d0be6c18429aea3fb0fba81f85c6e8/spring-expression-4.2.5.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/ognl/ognl/3.0.8/37e1aebfde7eb7baebc9ad4f85116ef9009c5fc5/ognl-3.0.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.18.1-GA/d9a09f7732226af26bf99f19e2cffe0ae219db5b/javassist-3.18.1-GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.0.RELEASE/ab0db4fe0a6fa89fb8da2a40008a4e63a7f3f5b9/unbescape-1.1.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-primitive-collections/2.3.3/1342495e06432c2082594081f0aaec3c522bfa8d/neo4j-primitive-collections-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/2.3.3/674c24b9acd18c82c0a4f0cf827e02b67a2aee9d/neo4j-io-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/2.3.3/6ed9f7f742a6a584ecb78af19ee3b4916e179b73/neo4j-csv-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-logging/2.3.3/2c587a7186d0d1b57f074a9e5597606de8dadede/neo4j-logging-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/3.6.2/9ec77e2507f9cc01756964c71d91efd8154a8c47/lucene-core-3.6.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.7/f75e7acabd57b213d6f61483240286c07213ec0e/scala-library-2.11.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.7/bf1649c9d33da945dea502180855b56caf06288c/scala-reflect-2.11.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.4/7369d653bcfa95d321994660477a4d7e81d7f490/scala-parser-combinators_2.11-1.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-codegen/2.3.3/f71c646b050e69dc57d34f4ab57563c6352e50d6/neo4j-codegen-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-1.9_2.11/2.0.5/4762c2e73ba32b8e2baa187e69f9375f688b39f1/neo4j-cypher-compiler-1.9_2.11-2.0.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.2_2.11/2.2.6/be771f007153d6ff141d1c394f324a9b961a95dd/neo4j-cypher-compiler-2.2_2.11-2.2.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.3/2.3.3/fb6da34b2e2b44408a15eed6ecc60caf5c3d1e5/neo4j-cypher-compiler-2.3-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.11/1.1.7/4e14ecb11f40f25216ce01dc349f541bc801354f/parboiled-scala_2.11-1.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-consistency-check-legacy/2.3.3/bd69874472b3654afce0714bb76133906114b945/neo4j-consistency-check-legacy-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.1/7e3cecc566df91338c6c67883b89ddd05a17db43/httpclient-4.5.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j/2.3.3/15c63d41a2f070ef94c53a3fb7eb98b87d3abc8d/neo4j-2.3.3.pom">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j.app/neo4j-server/2.2.5/9197325b92185f3075fc84612564cc378f1798c4/neo4j-server-2.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-rest-core/2.4.4.RELEASE/a770ecceb87de091f60d920e3dedfeed3f79088b/spring-data-rest-core-2.4.4.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.github.fge/json-patch/1.7/78831bdcabc64a4f9e64e1439763010b24e0d71d/json-patch-1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.5/92353eb144695bba80b31f7bec4f36d871f230ac/logback-classic-1.1.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.16/2d5b546c5557dcbf08c3a381d7dc9bd275a602c1/jul-to-slf4j-1.7.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.16/c5922f37c8a5e4377cfb543c549f10e73d72ede0/log4j-over-slf4j-1.7.16.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.1.0/dbbd699a1486ad0f2ed6f5af6cfed66acacb9056/classmate-1.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/2.3.3/e4598c9782278750c2b25e8201e947fca382d874/neo4j-unsafe-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-function/2.3.3/f6cf689d986da0728f236a9e78ae4fc329c18527/neo4j-function-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.2/baa28ca0269720d94c9f0cafef35a9ac63991de7/asm-5.0.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-2.3/2.3.3/c4f106a631e72d4933734cd0b21b32aafd2d7656/neo4j-cypher-frontend-2.3-2.3.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.4/b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/server-api/2.2.5/e47e9876914169fec9c829d1401fafd8209063a1/server-api-2.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j.app/neo4j-browser/2.2.5/309f239e2da31c5ed1cdd87d5b6698b89d1cd73/neo4j-browser-2.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-access/1.1.5/1c1bf5279293d6347c2c890a2a27fe804dc61d06/logback-access-1.1.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/janino/2.7.8/109852ba81725a1ca29cc9aa0688455bd7be4b0f/janino-2.7.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-server/9.2.15.v20160210/d1d354d811e3a0ed4464866cf8248a884ec6c431/jetty-server-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-webapp/9.2.15.v20160210/3bd2fcdd1a061fc683bf18f00f7984b12a23a70e/jetty-webapp-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-server/1.19/ee2ff839a65097eb12004edd909bcb4a97a2832c/jersey-server-1.19.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-servlet/1.19/2f19f1f7096d0fe3e09ae5698e4427114c23ad03/jersey-servlet-1.19.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-configuration/commons-configuration/1.10/2b36e4adfb66d966c5aef2d73deb6be716389dc9/commons-configuration-1.10.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-digester/commons-digester/2.1/73a8001e7a54a255eef0f03521ec1805dc738ca0/commons-digester-2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-jaxrs/1.9.13/534d72d2b9d6199dd531dfb27083dd4844082bba/jackson-jaxrs-1.9.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.rrd4j/rrd4j/2.2/e5aee992ece8c82291b77bef96cd1d11c1e0a009/rrd4j-2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.mozilla/rhino/1.7R4/e982f2136574b9a423186fbaeaaa98dc3e5a5288/rhino-1.7R4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/bouncycastle/bcprov-jdk16/140/41efb2a94041ddced6d2b3f2f80d218853aac6c9/bcprov-jdk16-140.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.sun.jersey.contribs/jersey-multipart/1.19/d94f3da447200adf1422de7fed2ca3c544eb2714/jersey-multipart-1.19.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-shell/2.2.5/6c9778df4fa6e36db6f47043ea04d306d030e46b/neo4j-shell-2.2.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.hateoas/spring-hateoas/0.19.0.RELEASE/77b3b15c301d2517356b76304a2670df33ef2e2c/spring-hateoas-0.19.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.springframework.plugin/spring-plugin-core/1.2.0.RELEASE/f380e7760032e7d929184f8ad8a33716b75c0657/spring-plugin-core-1.2.0.RELEASE.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.atteo/evo-inflector/1.2.1/b9cdd1e7dc20a222db0853dfb152ef349c7d0eed/evo-inflector-1.2.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.github.fge/jackson-coreutils/1.6/9e6af56eb7cc2a65700b289abc7ee2bd170fd231/jackson-coreutils-1.6.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.5/16722afde74444716e299bee1f60aec9f6d1f0dc/logback-core-1.1.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.neo4j.3rdparty.javax.ws.rs/jsr311-api/1.1.2.r612/a088198b2cff15b6d595178b1655bc88b858ad58/jsr311-api-1.1.2.r612.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.codehaus.janino/commons-compiler/2.7.8/fe224c801f296af125316178300dfc633675a8ff/commons-compiler-2.7.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-http/9.2.15.v20160210/5b1f9d51b7be45c8cded46965e00c247533a14fe/jetty-http-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-io/9.2.15.v20160210/5a3af41803c12b0f3628ed8927a8cedb42972169/jetty-io-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-xml/9.2.15.v20160210/ecd921c5eb140d77323eb60feab14fdde700d425/jetty-xml-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-servlet/9.2.15.v20160210/17fd3313e5e83b48b91394cc32bf90e09fa6eacf/jetty-servlet-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.sun.jersey/jersey-core/1.19/9a0619e2c514a79b610f17cadaae619c0a08d6a6/jersey-core-1.19.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-beanutils/commons-beanutils/1.9.2/7a87d845ad3a155297e8f67d9008f4c1e5656b71/commons-beanutils-1.9.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-core-asl/1.9.13/3c304d70f42f832e0a86d45bd437f692129299a4/jackson-core-asl-1.9.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.codehaus.jackson/jackson-mapper-asl/1.9.13/1ee2f2bed0e5dd29d1cb155a166e6f8d50bbddb7/jackson-mapper-asl-1.9.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.jvnet.mimepull/mimepull/1.9.3/c55096ff89a27e22c2e081371d0570ac19cc6788/mimepull-1.9.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.apache.servicemix.bundles/org.apache.servicemix.bundles.jline/0.9.94_1/66062fba95a5b7f3fda0fa5f20614b2e77d52acb/org.apache.servicemix.bundles.jline-0.9.94_1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.github.fge/msg-simple/1.1/f261263e13dd4cfa93cc6b83f1f58f619097a2c4/msg-simple-1.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/16.0.1/5fa98cd1a63c99a44dd8d3b77e4762b066a5d0c5/guava-16.0.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-util/9.2.15.v20160210/ccd245541cc63311bdcfe551525bd7d82ea5e92c/jetty-util-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty/jetty-security/9.2.15.v20160210/fbc43e32706a086d138dc16c4be7f3a0caf0e419/jetty-security-9.2.15.v20160210.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2.2/8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5/commons-collections-3.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/luay/.gradle/caches/modules-2/files-2.1/com.github.fge/btf/1.2/9e66651022eb86301b348d57e6f59459effc343b/btf-1.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

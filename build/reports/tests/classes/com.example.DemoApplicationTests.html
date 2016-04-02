@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.example.DemoApplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.example.DemoApplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.example.html">com.example</a> &gt; DemoApplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.003s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">contextLoads</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>04:40:36.861 [Test worker] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.example.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+04:40:36.871 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+04:40:36.880 [Test worker] INFO  o.s.t.c.w.WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3cf84013, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@39e1cfd0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1b258e54, org.springframework.test.context.support.DirtiesContextTestExecutionListener@49361521, org.springframework.test.context.transaction.TransactionalTestExecutionListener@37302ccc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@98fab5]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.3.3.RELEASE)
+
+04:40:37.071 [Test worker] INFO  com.example.DemoApplicationTests - Starting DemoApplicationTests on ubuntu with PID 3838 (/home/luay/Documents/workspace-sts-3.7.3.RELEASE/demo.old/build/classes/test started by luay in /home/luay/Documents/workspace-sts-3.7.3.RELEASE/demo.old)
+04:40:37.071 [Test worker] INFO  com.example.DemoApplicationTests - No active profile set, falling back to default profiles: default
+04:40:37.110 [Test worker] INFO  o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53af454: startup date [Fri Apr 01 04:40:37 PDT 2016]; root of context hierarchy
+04:40:37.348 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+04:40:38.236 [Test worker] INFO  o.s.b.f.s.DefaultListableBeanFactory - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+04:40:38.540 [Test worker] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myConfiguration' of type [class com.alshawi.home.neo4jConfig.MyConfiguration$$EnhancerBySpringCGLIB$$9c0d91cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04:40:38.540 [Test worker] INFO  o.s.d.n.config.Neo4jConfiguration - Initialising PersistenceExceptionTranslationPostProcessor
+04:40:38.571 [Test worker] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d4d3ba3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+04:40:38.650 [Test worker] INFO  o.s.d.n.config.Neo4jConfiguration - Initialising Neo4jSession
+04:40:38.951 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - Starting Post-processing phase
+04:40:38.952 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - Building annotation class map
+04:40:38.952 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - Building interface class map for 4 classes
+04:40:38.952 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - Registering default type converters...
+04:40:38.954 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - Post-processing complete
+04:40:38.954 [Test worker] INFO  o.n.o.m.info.ClassFileProcessor - 4 classes loaded in 9 milliseconds
+04:40:39.005 [Test worker] WARN  o.s.d.n.m.Neo4jPersistentProperty - No identity field found for class of type: com.alshawi.home.nodes.Person when creating persistent property for field: private java.lang.String com.alshawi.home.nodes.Person.name
+04:40:39.011 [Test worker] INFO  o.s.d.n.mapping.Neo4jMappingContext - Neo4jMappingContext initialisation completed
+04:40:39.400 [Test worker] INFO  o.s.b.f.config.PropertiesFactoryBean - Loading properties file from class path resource [rest-default-messages.properties]
+04:40:39.786 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53af454: startup date [Fri Apr 01 04:40:37 PDT 2016]; root of context hierarchy
+04:40:39.869 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.870 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.hateoas.Resources&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.870 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.headCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable) throws org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.870 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}&quot; onto public org.springframework.hateoas.Resources&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.getCollectionResourceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.871 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}],methods=[POST],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.postCollectionResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.871 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.optionsForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.871 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.headForItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.872 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.Resource&lt;?&gt;&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.util.MultiValueMap&lt;java.lang.String, java.lang.String&gt;) throws org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.872 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[PUT],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;? extends org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.putItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.872 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[PATCH],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.patchItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.data.rest.webmvc.PersistentEntityResource,java.io.Serializable,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler,org.springframework.data.rest.webmvc.support.ETag,java.lang.String) throws org.springframework.web.HttpRequestMethodNotSupportedException,org.springframework.data.rest.webmvc.ResourceNotFoundException
+04:40:39.872 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryEntityController.deleteItemResource(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,org.springframework.data.rest.webmvc.support.ETag) throws org.springframework.data.rest.webmvc.ResourceNotFoundException,org.springframework.web.HttpRequestMethodNotSupportedException
+04:40:39.873 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/ || ],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.HttpEntity&lt;org.springframework.data.rest.webmvc.RepositoryLinksResource&gt; org.springframework.data.rest.webmvc.RepositoryController.listRepositories()
+04:40:39.873 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/ || ],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.HttpEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryController.optionsForRepositories()
+04:40:39.874 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/ || ],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositoryController.headForRepositories()
+04:40:39.884 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+04:40:39.885 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}/{propertyId}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+04:40:39.885 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;? extends org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String) throws java.lang.Exception
+04:40:39.885 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}],methods=[GET],produces=[application/x-spring-data-compact+json || text/uri-list]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.followPropertyReferenceCompact(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler) throws java.lang.Exception
+04:40:39.886 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}],methods=[PATCH || PUT || POST],consumes=[application/json || application/x-spring-data-compact+json || text/uri-list],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;? extends org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.createPropertyReference(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.http.HttpMethod,org.springframework.hateoas.Resources&lt;java.lang.Object&gt;,java.io.Serializable,java.lang.String) throws java.lang.Exception
+04:40:39.886 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/{id}/{property}/{propertyId}],methods=[DELETE],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.RepositoryPropertyReferenceController.deletePropertyReferenceId(org.springframework.data.rest.webmvc.RootResourceInformation,java.io.Serializable,java.lang.String,java.lang.String) throws java.lang.Exception
+04:40:39.888 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search/{search}],methods=[GET],produces=[application/x-spring-data-compact+json]}&quot; onto public org.springframework.hateoas.ResourceSupport org.springframework.data.rest.webmvc.RepositorySearchController.executeSearchCompact(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap&lt;java.lang.String, java.lang.Object&gt;,java.lang.String,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+04:40:39.888 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search/{search}],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+04:40:39.888 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search/{search}],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; org.springframework.data.rest.webmvc.RepositorySearchController.headForSearch(org.springframework.data.rest.webmvc.RootResourceInformation,java.lang.String)
+04:40:39.888 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search],methods=[OPTIONS],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.HttpEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositorySearchController.optionsForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.889 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search],methods=[HEAD],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.HttpEntity&lt;?&gt; org.springframework.data.rest.webmvc.RepositorySearchController.headForSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.889 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.data.rest.webmvc.RepositorySearchesResource org.springframework.data.rest.webmvc.RepositorySearchController.listSearches(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.889 [Test worker] INFO  o.s.d.r.w.RepositoryRestHandlerMapping - Mapped &quot;{[/{repository}/search/{search}],methods=[GET],produces=[application/hal+json || application/json || application/*+json;charset=UTF-8]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.lang.Object&gt; org.springframework.data.rest.webmvc.RepositorySearchController.executeSearch(org.springframework.data.rest.webmvc.RootResourceInformation,org.springframework.util.MultiValueMap&lt;java.lang.String, java.lang.Object&gt;,java.lang.String,org.springframework.data.rest.webmvc.support.DefaultedPageable,org.springframework.data.domain.Sort,org.springframework.data.rest.webmvc.PersistentEntityResourceAssembler)
+04:40:39.891 [Test worker] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped &quot;{[/profile],methods=[OPTIONS]}&quot; onto public org.springframework.http.HttpEntity&lt;?&gt; org.springframework.data.rest.webmvc.ProfileController.profileOptions()
+04:40:39.891 [Test worker] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped &quot;{[/profile],methods=[GET]}&quot; onto org.springframework.http.HttpEntity&lt;org.springframework.hateoas.ResourceSupport&gt; org.springframework.data.rest.webmvc.ProfileController.listAllFormsOfMetadata()
+04:40:39.892 [Test worker] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped &quot;{[/profile/{repository}],methods=[GET],produces=[application/schema+json]}&quot; onto public org.springframework.http.HttpEntity&lt;org.springframework.data.rest.webmvc.json.JsonSchema&gt; org.springframework.data.rest.webmvc.RepositorySchemaController.schema(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.892 [Test worker] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped &quot;{[/profile/{repository}],methods=[OPTIONS],produces=[application/alps+json]}&quot; onto org.springframework.http.HttpEntity&lt;?&gt; org.springframework.data.rest.webmvc.alps.AlpsController.alpsOptions()
+04:40:39.892 [Test worker] INFO  o.s.d.r.w.BasePathAwareHandlerMapping - Mapped &quot;{[/profile/{repository}],methods=[GET],produces=[application/alps+json || */*]}&quot; onto org.springframework.http.HttpEntity&lt;org.springframework.data.rest.webmvc.RootResourceInformation&gt; org.springframework.data.rest.webmvc.alps.AlpsController.descriptor(org.springframework.data.rest.webmvc.RootResourceInformation)
+04:40:39.905 [Test worker] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+04:40:39.920 [Test worker] INFO  o.s.d.n.config.Neo4jConfiguration - Initialising PersistenceExceptionTranslator
+04:40:39.921 [Test worker] INFO  o.s.d.n.config.Neo4jConfiguration - Initialising PersistenceExceptionTranslationInterceptor
+04:40:39.923 [Test worker] INFO  o.s.d.n.config.Neo4jConfiguration - Initialising Neo4jTransactionManager
+04:40:40.419 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53af454: startup date [Fri Apr 01 04:40:37 PDT 2016]; root of context hierarchy
+04:40:40.433 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/]}&quot; onto public java.lang.String com.alshawi.home.controller.HomeController.showHome()
+04:40:40.434 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/student/add]}&quot; onto public java.lang.String com.alshawi.home.controller.StudentController.addStudent()
+04:40:40.434 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/student/show/StudentByUniversity/{college}]}&quot; onto public java.lang.String com.alshawi.home.controller.StudentController.showStudent(java.lang.String,org.springframework.ui.Model)
+04:40:40.434 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/student/added],methods=[POST]}&quot; onto public java.lang.String com.alshawi.home.controller.StudentController.addedStudent(java.lang.String,java.lang.String,java.lang.String)
+04:40:40.436 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+04:40:40.437 [Test worker] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+04:40:40.464 [Test worker] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04:40:40.464 [Test worker] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04:40:40.476 [Test worker] INFO  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in repositoryRestExceptionHandler
+04:40:40.498 [Test worker] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+04:40:41.106 [Test worker] INFO  com.example.DemoApplicationTests - Started DemoApplicationTests in 4.174 seconds (JVM running for 5.581)
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 2.12</a> at Apr 1, 2016 4:40:41 AM</p>
+</div>
+</div>
+</body>
+</html>
