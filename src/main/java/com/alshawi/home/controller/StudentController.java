@@ -41,8 +41,6 @@ public class StudentController {
 			@RequestParam("university") String university
 			)
 	{
-		System.out.println(username);
-
 		Student s = new Student();
 		s.setName(username);
 		s.setMajor(major);
