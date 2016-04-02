@@ -51,4 +51,11 @@ public class StudentController {
 		
 		return "add_student";
 	}
+
+	@RequestMapping(value="show/StudentByUniversity/",method = RequestMethod.POST)
+	public String showStudentByCollege(@RequestParam("college_search") String college,Model model)
+	{
+		model.addAttribute("students",studentRepository.getStudentByUniversity(college));
+		return "show_student";
+	}
 }

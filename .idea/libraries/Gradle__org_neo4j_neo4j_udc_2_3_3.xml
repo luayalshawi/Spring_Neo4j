@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.neo4j:neo4j-udc:2.3.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/2.3.3/6eed42c3e78a59fac6130effdded0a4e9917b0e7/neo4j-udc-2.3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-udc/2.3.3/315ead4295363ccd047a2969a423d885aa82eeb6/neo4j-udc-2.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
